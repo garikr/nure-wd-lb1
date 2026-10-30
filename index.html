@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,17 +9,80 @@
   <body>
     <header>
       <h1>Лабораторна робота №1. Варіант 2</h1>
-      <p>Виконав студент группи КІУКІ-24-2, Ігор Рибалко</p>
+      <p>Виконав студент КІУКІ-24-2, Ігор Рибалко</p>
     </header>
     <main>
       <section>
-        <h2>1. Хімічне рівняння</h2>
+        <h2>1. Хімічно реакція <strong>ортофосфорної кислоти</strong></h2>
+        <p>P<sub>2</sub>O<sub>5</sub>+3H<sub>2</sub>O&rarr;H<sub>3</sub>PO<sub>4</sub></p>
       </section>
-      <section><h2>2. Список</h2></section>
-      <section><h2>3. Прогноз погоди</h2></section>
-      <section><h2>4. Форма для пошуку</h2></section>
-      <section><h2>5. Посилання</h2></section>
+      <section>
+        <h2>2. Список груп:</h2>
+        <ul>
+          <li>
+            123 «Комп’ютерна інженерія»
+            <ul>
+              <li>КІУКІ-24-1</li>
+              <li>КІУКІ-24-2</li>
+            </ul>
+          </li>
+          <li>
+            122 «Комп'ютерні науки»
+            <ul>
+              <li>КН-24-1</li>
+              <li>КН-24-2</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>3. Прогноз погоди</h2>
+        <table>
+          <caption>
+            Прогноз погоди у Харкові
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Дата</th>
+              <th scope="col">Температура (&deg;C)</th>
+              <th scope="col">Опади</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Сьогодні</th>
+              <td>+12 / +5</td>
+              <td>Хмарно</td>
+            </tr>
+            <tr>
+              <th scope="row">Завтра</th>
+              <td>+10 / +2</td>
+              <td>Дощ</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>4. Форма для пошуку</h2>
+        <form action="#" method="GET">
+          <fieldset>
+            <legend>Пошук по сайту</legend>
+            <label for="search-query">Введіть запит:</label>
+            <input type="search" id="search-query" name="search-input" placeholder="Текст запиту..." required />
+            <button type="submit">Знайти</button>
+          </fieldset>
+        </form>
+      </section>
+      <section>
+        <h2>5. Посилання та зображення</h2>
+        <p>
+          <img src="images/weather-icon.png" alt="Іконка погоди" width="100" height="100" decoding="async" />
+        </p>
+        <p>
+          <a href="info.html">Детальна інформація про погоду</a>
+        </p>
+      </section>
     </main>
-    <footer>&copy;ХНУРЕ 2026. Всі права захищено.</footer>
+    <footer><small>&copy;</small>NURE 2026. Всі права захищено.</footer>
   </body>
 </html>
